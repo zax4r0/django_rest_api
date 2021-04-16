@@ -4,7 +4,7 @@
 
 A REST api written in Django
 
-- #### NOTES
+ NOTES
       1.  I added some dummy data for fun xd
       2.   django secret keys are public so make sure u reset them for ur use
 
