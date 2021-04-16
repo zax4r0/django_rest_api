@@ -8,8 +8,8 @@ A REST api written in Django
       1.  I added some dummy data for fun xd
       2.   django secret keys are public so make sure u reset them for ur use
 
-          -[keeping keys safe](https://dev.to/vladyslavnua/how-to-protect-your-django-secret-and-oauth-keys-53fl): keep ur keys safe
-          - [changing keys without loging users out](https://medium.com/@bayraktar.eralp/changing-rotating-django-secret-key-without-logging-users-out-804a29d3ea65):
+  https://dev.to/vladyslavnua/how-to-protect-your-django-secret-and-oauth-keys-53fl keep ur keys safe
+  https://medium.com/@bayraktar.eralp/changing-rotating-django-secret-key-without-logging-users-out-804a29d3ea65
 
 ## Technologies used
 
