@@ -7,7 +7,7 @@ A REST api written in Django
 ## Technologies used
 
 - [Django](https://www.djangoproject.com/): The web framework for perfectionists with deadlines (Django builds better web apps with less code).
-- [DRF](www.django-rest-framework.org/): A powerful and flexible toolkit for building Web APIs
+- [DRF](https://www.django-rest-framework.org/): A powerful and flexible toolkit for building Web APIs
 
 ## Installation
 
@@ -52,4 +52,9 @@ A REST api written in Django
   ```
       http://localhost:8000/api/
   ```
-        I added some dummy data for fun xd
+- #### NOTES
+      1.  I added some dummy data for fun xd
+      2.   django secret keys are public so make sure u reset them for ur use
+
+          -[keeping keys safe](https://dev.to/vladyslavnua/how-to-protect-your-django-secret-and-oauth-keys-53fl): keep ur keys safe
+          - [changing keys without loging users out](https://medium.com/@bayraktar.eralp/changing-rotating-django-secret-key-without-logging-users-out-804a29d3ea65):
