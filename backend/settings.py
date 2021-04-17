@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'DEFAULT_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['https://agile-falls-82317.herokuapp.com']
+#Add only allowd hosts here is a exaple 
+#ALLOWED_HOSTS = ['https://agile-falls-82317.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
