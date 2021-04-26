@@ -22,12 +22,20 @@ from rest_framework.views import APIView
 from rest_framework import generics
 from rest_framework import mixins
 
+#for auth
+from rest_framework.authentication import SessionAuthentication,BasicAuthentication,TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
+
+#auth class
+
 class GenericAPIView(generics.GenericAPIView,mixins.ListModelMixin,mixins.CreateModelMixin,
                      mixins.UpdateModelMixin,mixins.RetrieveModelMixin,mixins.DestroyModelMixin):
     serializer_class = ArticleSerializer
     queryset = Article.objects.all()
-
     lookup_field = 'id'
+    authentication_classes = [SessionAuthentication,BasicAuthentication]
+    # authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def get(self,request,id=None):
         if id:
