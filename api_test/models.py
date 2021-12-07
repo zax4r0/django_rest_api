@@ -11,7 +11,3 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
-
-# I konw this is not correct LOL i will add later
-# also i have to app password and sessions auth nd many more
-# will add step by step
